@@ -5,7 +5,7 @@ const List = () => {
 
     return (
         <ul id="shoppingList" className="shoppinglist">
-            <Item />
+            <Item  />
             <Item />
             <Item />
             <Item /> 
