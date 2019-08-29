@@ -2,13 +2,17 @@
 
 import React from 'react';
 import List from './List'; 
+import Filter  from './Filter'; 
 
 const App = () => {
   return (
     // title
     // <newItem /> 
-    // <Filter /> 
-    <List />
+    <main>
+      <Filter /> 
+      <List />
+    </main>
+    
     
   );
 };
