@@ -6,19 +6,19 @@ class List extends Component{
 
     initialItems = [
         {
-            name: "steaks",
+            item: "steaks",
             category: "meat"
         },
         {
-            name: "apples",
+            item: "apples",
             category: "produce"
         },
         {
-            name: "milk (1L, 3.25%)",
+            item: "milk (1L, 3.25%)",
             category: "dairy"
         },
         {
-            name: "baguette",
+            item: "baguette",
             category: "bakery"
         },
     ]

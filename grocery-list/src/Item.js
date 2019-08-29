@@ -34,7 +34,7 @@ class Item extends Component {
     return (
       <div className={ category }>
           <button onClick={this.decreaseQuantity}type="button" className="btn down">-</button>
-          <span>{ this.state.quantity }{ item }</span>
+          <span>{ this.state.quantity }  { item }</span>
           <button onClick={this.incrementQuantity} type ="button" className="btn up" >+</button>
       </div>
     );
