@@ -9,8 +9,9 @@ const Details = ({category, quantity, name}) => {
 
     return (
         <li className = {category}>
-            <Quantity quantity = {3} />
-            <Name name ={steaks} /> 
+            <Quantity quantity = {quantity} />
+            <Name name ={name} /> 
         </li>
     )
 }
+

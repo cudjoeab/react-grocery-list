@@ -5,8 +5,10 @@ import List from './List';
 
 const App = () => {
   return (
-    
-    <List/>
+    // title
+    // <newItem /> 
+    // <Filter /> 
+    <List />
     
   );
 };
