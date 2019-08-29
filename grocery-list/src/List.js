@@ -3,7 +3,6 @@ import Item from './Item';
 
 
 class List extends Component{
-
     initialItems = [
         {
             item: "steaks",
@@ -22,10 +21,14 @@ class List extends Component{
             category: "bakery"
         },
     ]
-
+  
     state = {
         items : this.initialItems
     }
+
+
+  
+   
 
     render() {
 
