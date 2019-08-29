@@ -1,11 +1,11 @@
 // Homepage 
 
 import React from 'react';
+// import List from './List'; 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <ul id="shoppingList" className="shoppinglist">
+    <ul id="shoppingList" className="shoppinglist">
         <li className="meat">
           <button>-</button>
           <span>3 Steaks</span>
@@ -27,8 +27,6 @@ function App() {
           <button>+</button>
         </li>
       </ul>
-  
-    </div>
   );
 }
 
