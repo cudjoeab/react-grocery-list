@@ -1,18 +1,22 @@
 import React from 'react'; 
 
 const ItemForm = ({ onSubmit }) => {
-    const itemRef = React.createRef(); 
+  const itemRef = React.createRef(); 
 
     const handleSubmit = (event) => {
 
         event.preventDefault(); 
 
-        const item = {
-          name : itemRef.current.value
-        }
+        if (itemRef.current.value) {  
+          const item = {
+              name: itemRef.current.value,
+          }
+
       
         onSubmit(item); 
+        document.getElementById("newItem").reset();
     }
+  }
 
     
 
